@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Tecprin</string>
+
+    <string name="product_thumbnail_description">Product thumbnail</string>
+    <string name="product_price">Price: %s$</string>
+    <string name="product_category">Category: %s</string>
+    <string name="product_brand">Brand: %s</string>
+
+    <string name="dialog_no_internet_title">No Internet Connection</string>
+    <string name="dialog_no_internet_message">Make sure you have an internet connection and try again.</string>
+    <string name="dialog_general_error_title">Oops!</string>
+    <string name="dialog_general_error_message">Something went wrong. Please try again.</string>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_back">Go Back</string>
+    <string name="dialog_retry">Retry</string>
+
 </resources>
