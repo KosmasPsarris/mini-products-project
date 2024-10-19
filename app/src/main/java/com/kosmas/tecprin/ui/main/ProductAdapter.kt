@@ -15,7 +15,7 @@ class ProductAdapter(
     private val onItemClick: (id: Int) -> Unit
 ) : RecyclerView.Adapter<ProductAdapter.ViewHolder>() {
 
-    lateinit var myContext: Context
+    private lateinit var myContext: Context
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
@@ -40,7 +40,7 @@ class ProductAdapter(
         notifyDataSetChanged()
     }
 
-    fun deleteProducts(){
+    fun deleteProducts() {
         this.products = listOf()
         notifyDataSetChanged()
     }
@@ -61,9 +61,9 @@ class ProductAdapter(
 
                 productTitle.text = product.title
                 productPrice.text = myContext.getString(R.string.product_price, product.price)
-                product.brand?.let{
+                product.brand?.let {
                     productBrand.text = myContext.getString(R.string.product_brand, it)
-                } ?: run{
+                } ?: run {
                     productBrand.text = ""
                 }
                 root.setOnClickListener {

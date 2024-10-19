@@ -4,6 +4,6 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="background_color">#FEF9E7</color>
-    <color name="background_color_bottom_sheet">#FDEBD0</color>
+    <color name="background_color_alternative">#FDEBD0</color>
 
 </resources>

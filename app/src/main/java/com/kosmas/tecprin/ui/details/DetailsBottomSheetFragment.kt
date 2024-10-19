@@ -157,7 +157,7 @@ class DetailsBottomSheetFragment(private val productId: Int) : BaseBottomSheetFr
         }
     }
 
-    private fun retry(){
+    private fun retry() {
         binding.loader.show()
         viewModel.getProductDetails(productId)
     }

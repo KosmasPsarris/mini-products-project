@@ -78,7 +78,10 @@ class MainFragment : BaseFragment() {
                                         },
                                         optionalButton = getString(R.string.dialog_retry),
                                         mandatoryButton = getString(R.string.dialog_ok),
-                                        mandatoryAction = { viewModel.productsPagingState = PagingScrollingState.FETCH_MORE }
+                                        mandatoryAction = {
+                                            viewModel.productsPagingState =
+                                                PagingScrollingState.FETCH_MORE
+                                        }
                                     )
                                 }
 
@@ -92,7 +95,10 @@ class MainFragment : BaseFragment() {
                                         },
                                         optionalButton = getString(R.string.dialog_retry),
                                         mandatoryButton = getString(R.string.dialog_ok),
-                                        mandatoryAction = { viewModel.productsPagingState = PagingScrollingState.FETCH_MORE }
+                                        mandatoryAction = {
+                                            viewModel.productsPagingState =
+                                                PagingScrollingState.FETCH_MORE
+                                        }
                                     )
                                 }
 
@@ -106,7 +112,10 @@ class MainFragment : BaseFragment() {
                                         },
                                         optionalButton = getString(R.string.dialog_retry),
                                         mandatoryButton = getString(R.string.dialog_ok),
-                                        mandatoryAction = { viewModel.productsPagingState = PagingScrollingState.FETCH_MORE }
+                                        mandatoryAction = {
+                                            viewModel.productsPagingState =
+                                                PagingScrollingState.FETCH_MORE
+                                        }
                                     )
                                 }
                             }

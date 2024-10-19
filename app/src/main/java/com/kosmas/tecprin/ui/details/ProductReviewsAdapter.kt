@@ -12,7 +12,7 @@ class ProductReviewsAdapter(
     private var productReviews: List<Review>
 ) : RecyclerView.Adapter<ProductReviewsAdapter.ViewHolder>() {
 
-    lateinit var myContext: Context
+    private lateinit var myContext: Context
 
     override fun onCreateViewHolder(
         parent: ViewGroup,

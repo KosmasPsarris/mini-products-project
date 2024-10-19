@@ -4,7 +4,6 @@ plugins {
     id("org.jetbrains.kotlin.kapt")
     alias(libs.plugins.dagger.hilt)
     alias(libs.plugins.ksp)
-
 }
 
 android {
